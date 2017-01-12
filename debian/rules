@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --with kf5
+
+override_dh_auto_test:

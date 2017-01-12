@@ -1,0 +1,19 @@
+Source: tortoggle
+Section: kde
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               libkf5i18n-dev,
+               libkf5plasma-dev,
+               pkg-kde-tools,
+               qtbase5-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/ds9-extras/tortoggle
+
+Package: plasma-widget-tortoggle
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: plasma widget to control Tor
+ Plasmoid to control Tor on your Plasma 5 Desktop
