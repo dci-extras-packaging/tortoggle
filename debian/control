@@ -8,7 +8,8 @@ Build-Depends: cmake,
                libkf5i18n-dev,
                libkf5plasma-dev,
                pkg-kde-tools,
-               qtbase5-dev
+               qtbase5-dev,
+               qtdeclarative5-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/ds9-extras/tortoggle
 
